@@ -1,0 +1,13 @@
+# Automated Backup
+
+Este proyecto contiene scripts para automatizar backups de archivos y bases de datos.
+
+## Estructura
+- `scripts/`: Scripts para automatizar las copias de seguridad.
+- `logs/`: Archivos de registro de las ejecuciones.
+- `configs/`: Archivos de configuración.
+
+## Uso
+1. Configura las rutas en `scripts/backup_files.sh`.
+2. Asegúrate de que los directorios existan.
+3. Automatiza la ejecución usando `cron`.
